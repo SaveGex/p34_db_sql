@@ -17,8 +17,8 @@ float(n)				from 1 to 24 (4 byte, 7 signs)
 real					equls float(24)
 decimal(a, b)			a --> 1 - 38	b --> 0 - a
 numeric(a, b)			a --> 1 - 38	b --> 0 - a
-money					8 byte
-smallmoney				4 byte
+money					equals decimal(19, 4) 8 byte
+smallmoney				equals decimal(10, 4) 4 byte
 
 === Дата и время ===
 datetime				date, time with sec and ms						2023-09-05 12:43:12.487
@@ -38,5 +38,3 @@ geography
 table
 
 xml
-
-
